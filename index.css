@@ -53,7 +53,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(146, 172, 243);
+  background-color: #333;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -71,6 +71,66 @@ header {
 .dropdown-content a:hover {
   background-color: rgb(9, 3, 81);
 }
+.home {
+  width: 50%;
+  font-size: 40px;
+  background: white;
+  margin: auto;
+  margin-top: 1%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  flex: content;
+  padding: 7px;
+}
+.anime {
+  width: 50%;
+  font-size: 40px;
+  background: white;
+  margin: auto;
+  margin-top: 1%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  flex: content;
+  padding: 7px;
+}
+.cars {
+  width: 50%;
+  font-size: 40px;
+  background: white;
+  margin: auto;
+  margin-top: 1%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  flex: content;
+  padding: 7px;
+}
+.games {
+  width: 50%;
+  font-size: 40px;
+  background: white;
+  margin: auto;
+  margin-top: 1%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  flex: content;
+  padding: 7px;
+}
+.guitars {
+  width: 50%;
+  font-size: 40px;
+  background: white;
+  margin: auto;
+  margin-top: 1%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  flex: content;
+  padding: 7px;
+}
 
 .show {
   display: block;
@@ -80,12 +140,12 @@ header {
 }
 
 .column {
-  background: #eee;
-  border: 5px solid rgb(110, 107, 107);
+  background: white;
+  border: 3px solid black;
   display: flex;
-  flex: 1;
+  flex: content;
   flex-direction: column;
-  padding: 10px;
+  padding: 7px;
 }
 
 .main-column {
@@ -94,9 +154,9 @@ header {
 
 .article {
   background: white;
-  border: 5px solid white;
+  border: 3px solid black;
   color: black;
-  flex: 1;
+  flex: content;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
 }
